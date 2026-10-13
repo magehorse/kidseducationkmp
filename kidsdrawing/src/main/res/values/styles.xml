@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="KdAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/kd_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/kd_colorPrimaryDark</item>
+        <item name="colorAccent">@color/kd_colorAccent</item>
+        <item name="android:fontFamily">@font/font_style</item>
+
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar background (use DARK color) -->
+        <item name="android:statusBarColor">@color/kd_colorPrimaryDark</item>
+
+        <!-- IMPORTANT: false = WHITE icons -->
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="KdAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/kd_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/kd_colorPrimaryDark</item>
+        <item name="colorAccent">@color/kd_colorAccent</item>
+        <item name="android:windowBackground">@drawable/splashy</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/transparent_</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+        <item name="android:enforceNavigationBarContrast" tools:ignore="NewApi">false</item>
+    </style>
+
+
+</resources>

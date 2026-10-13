@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- =========================
+         HEADER (matches the "Learn Writing" / "Match Pattern" header)
+         ========================= -->
+    <RelativeLayout
+            android:id="@+id/headerRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/kd_matchHeaderTheme">
+
+        <RelativeLayout
+                android:id="@+id/headerContent"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_back_150" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bubble_regular"
+                    android:text="Choose a Picture"
+                    android:textColor="@color/kd_colorWhite"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_below="@id/headerContent"
+                android:scaleType="fitXY"
+                android:src="@drawable/header_scallop" />
+
+    </RelativeLayout>
+
+    <!-- =========================
+         EASY / HARD TABS
+         ========================= -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTabEasy"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:background="@drawable/bg_bg_image_tab_selected"
+                android:fontFamily="@font/bubble_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:text="Easy"
+                android:textColor="@color/kd_colorWhite"
+                android:textSize="@dimen/_13sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTabHard"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_bg_image_tab_unselected"
+                android:fontFamily="@font/bubble_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:text="Hard"
+                android:textColor="@color/kd_matchHeaderTheme"
+                android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBGImageList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/five_dp"/>
+
+    <FrameLayout
+            android:id="@+id/adViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+</LinearLayout>

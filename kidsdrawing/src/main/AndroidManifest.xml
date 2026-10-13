@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--
+      READ/WRITE_EXTERNAL_STORAGE are declared once, in the host app's
+      AndroidManifest.xml (app/src/main/AndroidManifest.xml), so their
+      maxSdkVersion stays consistent across both apps instead of conflicting
+      at merge time.
+    -->
+
+    <!--
+      This is a LIBRARY manifest (merged into the host app's manifest at
+      build time). It intentionally does NOT declare an application name,
+      icon, theme, or the AdMob application id meta-data - the host app
+      (kidsgame) already declares all of those, and this module reuses them.
+      The FileProvider is also intentionally omitted here: the host app
+      already declares one at the same "${applicationId}.provider"
+      authority, and its res/xml/file_paths.xml has been extended with the
+      paths this module needs (see app/src/main/res/xml/file_paths.xml).
+    -->
+    <application>
+
+        <activity
+                android:exported="true"
+                android:name=".activities.SplashActivity"
+                android:theme="@style/AppTheme_Splash" />
+
+        <activity
+                android:name=".activities.MainActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/KdAppTheme"
+                />
+
+        <activity
+                android:name=".activities.BGImageListActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/KdAppTheme"
+                />
+
+        <activity
+                android:name=".activities.EditorActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustNothing"
+                android:theme="@style/KdAppTheme"
+                />
+
+        <activity
+                android:name=".mywork.MyWorkActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/KdAppTheme"/>
+        <activity
+                android:name=".mywork.FullScreenActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/KdAppTheme"/>
+
+    </application>
+
+</manifest>

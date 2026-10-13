@@ -1,0 +1,2645 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "index": 0,
+   "title": "Alphabets",
+   "icon": "home_alphabet",
+   "items": [
+    {
+     "image": "a",
+     "speak": "A for Apple",
+     "show": "Apple"
+    },
+    {
+     "image": "b",
+     "speak": "B for Ball",
+     "show": "Ball"
+    },
+    {
+     "image": "c",
+     "speak": "C for Cat",
+     "show": "Cat"
+    },
+    {
+     "image": "d",
+     "speak": "D for Dog",
+     "show": "Dog"
+    },
+    {
+     "image": "e",
+     "speak": "E for Elephant",
+     "show": "Elephant"
+    },
+    {
+     "image": "f",
+     "speak": "F for Fish",
+     "show": "Fish"
+    },
+    {
+     "image": "g",
+     "speak": "G for Goat",
+     "show": "Goat"
+    },
+    {
+     "image": "h",
+     "speak": "H for Horse",
+     "show": "Horse"
+    },
+    {
+     "image": "i",
+     "speak": "I for Ice cream",
+     "show": "Ice cream"
+    },
+    {
+     "image": "j",
+     "speak": "J for Joker",
+     "show": "Joker"
+    },
+    {
+     "image": "k",
+     "speak": "K for Kite",
+     "show": "Kite"
+    },
+    {
+     "image": "l",
+     "speak": "L for Lion",
+     "show": "Lion"
+    },
+    {
+     "image": "m",
+     "speak": "M for Monkey",
+     "show": "Monkey"
+    },
+    {
+     "image": "n",
+     "speak": "N for Nest",
+     "show": "Nest"
+    },
+    {
+     "image": "o",
+     "speak": "O for Orange",
+     "show": "Orange"
+    },
+    {
+     "image": "p",
+     "speak": "P for Parrot",
+     "show": "Parrot"
+    },
+    {
+     "image": "q",
+     "speak": "Q for Queen",
+     "show": "Queen"
+    },
+    {
+     "image": "r",
+     "speak": "R for Rabbit",
+     "show": "Rabbit"
+    },
+    {
+     "image": "s",
+     "speak": "S for Sun",
+     "show": "Sun"
+    },
+    {
+     "image": "t",
+     "speak": "T for Train",
+     "show": "Train"
+    },
+    {
+     "image": "u",
+     "speak": "U for Umbrella",
+     "show": "Umbrella"
+    },
+    {
+     "image": "v",
+     "speak": "V for Violin",
+     "show": "Violin"
+    },
+    {
+     "image": "w",
+     "speak": "W for Watch",
+     "show": "Watch"
+    },
+    {
+     "image": "x",
+     "speak": "X for Xylophone",
+     "show": "Xylophone"
+    },
+    {
+     "image": "y",
+     "speak": "Y for Yak",
+     "show": "Yak"
+    },
+    {
+     "image": "z",
+     "speak": "Z for Zebra",
+     "show": "Zebra"
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "Numbers",
+   "icon": "home_number",
+   "items": [
+    {
+     "image": "zero_0",
+     "speak": "Zero",
+     "show": "Zero",
+     "speakHi": "शून्य"
+    },
+    {
+     "image": "one_1",
+     "speak": "One",
+     "show": "One",
+     "speakHi": "एक"
+    },
+    {
+     "image": "two_2",
+     "speak": "Two",
+     "show": "Two",
+     "speakHi": "दो"
+    },
+    {
+     "image": "three_3",
+     "speak": "Three",
+     "show": "Three",
+     "speakHi": "तीन"
+    },
+    {
+     "image": "four_4",
+     "speak": "Four",
+     "show": "Four",
+     "speakHi": "चार"
+    },
+    {
+     "image": "five_5",
+     "speak": "Five",
+     "show": "Five",
+     "speakHi": "पांच"
+    },
+    {
+     "image": "six_6",
+     "speak": "Six",
+     "show": "Six",
+     "speakHi": "छह"
+    },
+    {
+     "image": "seven_7",
+     "speak": "Seven",
+     "show": "Seven",
+     "speakHi": "सात"
+    },
+    {
+     "image": "eight_8",
+     "speak": "Eight",
+     "show": "Eight",
+     "speakHi": "आठ"
+    },
+    {
+     "image": "nine_9",
+     "speak": "Nine",
+     "show": "Nine",
+     "speakHi": "नौ"
+    },
+    {
+     "image": "ten_10",
+     "speak": "Ten",
+     "show": "Ten",
+     "speakHi": "दस"
+    },
+    {
+     "image": "eleven_11",
+     "speak": "Eleven",
+     "show": "Eleven",
+     "speakHi": "ग्यारह"
+    },
+    {
+     "image": "twelve_12",
+     "speak": "Twelve",
+     "show": "Twelve",
+     "speakHi": "बारह"
+    },
+    {
+     "image": "thirteen_13",
+     "speak": "Thirteen",
+     "show": "Thirteen",
+     "speakHi": "तेरह"
+    },
+    {
+     "image": "fourteen_14",
+     "speak": "Fourteen",
+     "show": "Fourteen",
+     "speakHi": "चौदह"
+    },
+    {
+     "image": "fifteen_15",
+     "speak": "Fifteen",
+     "show": "Fifteen",
+     "speakHi": "पंद्रह"
+    },
+    {
+     "image": "sixteen_16",
+     "speak": "Sixteen",
+     "show": "Sixteen",
+     "speakHi": "सोलह"
+    },
+    {
+     "image": "seventeen_17",
+     "speak": "Seventeen",
+     "show": "Seventeen",
+     "speakHi": "सत्रह"
+    },
+    {
+     "image": "eighteen_18",
+     "speak": "Eighteen",
+     "show": "Eighteen",
+     "speakHi": "अठारह"
+    },
+    {
+     "image": "nineteen_19",
+     "speak": "Nineteen",
+     "show": "Nineteen",
+     "speakHi": "उन्नीस"
+    },
+    {
+     "image": "twenty_20",
+     "speak": "Twenty",
+     "show": "Twenty",
+     "speakHi": "बीस"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "title": "Colors",
+   "icon": "home_color",
+   "items": [
+    {
+     "image": "green",
+     "speak": "Green",
+     "show": "Green"
+    },
+    {
+     "image": "pink",
+     "speak": "Pink",
+     "show": "Pink"
+    },
+    {
+     "image": "red",
+     "speak": "Red",
+     "show": "Red"
+    },
+    {
+     "image": "black",
+     "speak": "Black",
+     "show": "Black"
+    },
+    {
+     "image": "aqua",
+     "speak": "Aqua",
+     "show": "Aqua"
+    },
+    {
+     "image": "blue",
+     "speak": "Blue",
+     "show": "Blue"
+    },
+    {
+     "image": "brown",
+     "speak": "Brown",
+     "show": "Brown"
+    },
+    {
+     "image": "slate",
+     "speak": "Slate",
+     "show": "Slate"
+    },
+    {
+     "image": "violet",
+     "speak": "Violet",
+     "show": "Violet"
+    },
+    {
+     "image": "white",
+     "speak": "White",
+     "show": "White"
+    },
+    {
+     "image": "yellow",
+     "speak": "Yellow",
+     "show": "Yellow"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "title": "Shapes",
+   "icon": "home_shape",
+   "items": [
+    {
+     "image": "circle",
+     "speak": "Circle",
+     "show": "Circle"
+    },
+    {
+     "image": "square",
+     "speak": "Square",
+     "show": "Square"
+    },
+    {
+     "image": "decagon",
+     "speak": "Decagon",
+     "show": "Decagon"
+    },
+    {
+     "image": "ellipse",
+     "speak": "Ellipse",
+     "show": "Ellipse"
+    },
+    {
+     "image": "hexagon",
+     "speak": "Hexagon",
+     "show": "Hexagon"
+    },
+    {
+     "image": "triangle",
+     "speak": "Triangle",
+     "show": "Triangle"
+    },
+    {
+     "image": "octagon",
+     "speak": "Octagon",
+     "show": "Octagon"
+    },
+    {
+     "image": "parallelogram",
+     "speak": "Parallelogram",
+     "show": "Parallelogram"
+    },
+    {
+     "image": "pentagon",
+     "speak": "Pentagon",
+     "show": "Pentagon"
+    },
+    {
+     "image": "rectangle",
+     "speak": "Rectangle",
+     "show": "Rectangle"
+    },
+    {
+     "image": "rhombus",
+     "speak": "Rhombus",
+     "show": "Rhombus"
+    },
+    {
+     "image": "right_triangle",
+     "speak": "Right Triangle",
+     "show": "Right Triangle"
+    },
+    {
+     "image": "trapezoid",
+     "speak": "Trapezoid",
+     "show": "Trapezoid"
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "title": "Animals",
+   "icon": "home_animal",
+   "items": [
+    {
+     "image": "bear",
+     "speak": "Bear",
+     "show": "Bear"
+    },
+    {
+     "image": "bison",
+     "speak": "Bison",
+     "show": "Bison"
+    },
+    {
+     "image": "black_leopard",
+     "speak": "Black Leopard",
+     "show": "Black Leopard"
+    },
+    {
+     "image": "cheetah",
+     "speak": "Cheetah",
+     "show": "Cheetah"
+    },
+    {
+     "image": "chimpanzee",
+     "speak": "Chimpanzee",
+     "show": "Chimpanzee"
+    },
+    {
+     "image": "chipmuck",
+     "speak": "Chipmuck",
+     "show": "Chipmuck"
+    },
+    {
+     "image": "cougar",
+     "speak": "Cougar",
+     "show": "Cougar"
+    },
+    {
+     "image": "deer",
+     "speak": "Deer",
+     "show": "Deer"
+    },
+    {
+     "image": "elephant",
+     "speak": "Elephant",
+     "show": "Elephant"
+    },
+    {
+     "image": "fox",
+     "speak": "Fox",
+     "show": "Fox"
+    },
+    {
+     "image": "giraffe",
+     "speak": "Giraffe",
+     "show": "Giraffe"
+    },
+    {
+     "image": "gorilla",
+     "speak": "Gorilla",
+     "show": "Gorilla"
+    },
+    {
+     "image": "hedgehog",
+     "speak": "Hedgehog",
+     "show": "Hedgehog"
+    },
+    {
+     "image": "hippopotamus",
+     "speak": "Hippopotamus",
+     "show": "Hippopotamus"
+    },
+    {
+     "image": "hyena",
+     "speak": "Hyena",
+     "show": "Hyena"
+    },
+    {
+     "image": "jackal",
+     "speak": "Jackal",
+     "show": "Jackal"
+    },
+    {
+     "image": "jaguar",
+     "speak": "Jaguar",
+     "show": "Jaguar"
+    },
+    {
+     "image": "kangaroo",
+     "speak": "Kangaroo",
+     "show": "Kangaroo"
+    },
+    {
+     "image": "koala_bear",
+     "speak": "Koala Bear",
+     "show": "Koala Bear"
+    },
+    {
+     "image": "lion",
+     "speak": "Lion",
+     "show": "Lion"
+    },
+    {
+     "image": "meerkat",
+     "speak": "Meerkat",
+     "show": "Meerkat"
+    },
+    {
+     "image": "mongoose",
+     "speak": "Mongoose",
+     "show": "Mongoose"
+    },
+    {
+     "image": "monkey",
+     "speak": "Monkey",
+     "show": "Monkey"
+    },
+    {
+     "image": "opossum",
+     "speak": "Opossum",
+     "show": "Opossum"
+    },
+    {
+     "image": "otter",
+     "speak": "Otter",
+     "show": "Otter"
+    },
+    {
+     "image": "panda",
+     "speak": "Panda",
+     "show": "Panda"
+    },
+    {
+     "image": "polar_bear",
+     "speak": "Polar Bear",
+     "show": "Polar Bear"
+    },
+    {
+     "image": "porcupine",
+     "speak": "Porcupine",
+     "show": "Porcupine"
+    },
+    {
+     "image": "raccoon",
+     "speak": "Raccoon",
+     "show": "Raccoon"
+    },
+    {
+     "image": "red_panda",
+     "speak": "Red Panda",
+     "show": "Red Panda"
+    },
+    {
+     "image": "rhinoceros",
+     "speak": "Rhinoceros",
+     "show": "Rhinoceros"
+    },
+    {
+     "image": "scimitar_oryx",
+     "speak": "Scimitar Oryx",
+     "show": "Scimitar Oryx"
+    },
+    {
+     "image": "squirrel",
+     "speak": "Squirrel",
+     "show": "Squirrel"
+    },
+    {
+     "image": "tiger",
+     "speak": "Tiger",
+     "show": "Tiger"
+    },
+    {
+     "image": "wolf",
+     "speak": "Wolf",
+     "show": "Wolf"
+    },
+    {
+     "image": "wombat",
+     "speak": "Wombat",
+     "show": "Wombat"
+    },
+    {
+     "image": "zebra",
+     "speak": "Zebra",
+     "show": "Zebra"
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "title": "Birds",
+   "icon": "home_birds",
+   "items": [
+    {
+     "image": "canary",
+     "speak": "Canary",
+     "show": "Canary"
+    },
+    {
+     "image": "crow",
+     "speak": "Crow",
+     "show": "Crow"
+    },
+    {
+     "image": "dove",
+     "speak": "Dove",
+     "show": "Dove"
+    },
+    {
+     "image": "duck",
+     "speak": "Duck",
+     "show": "Duck"
+    },
+    {
+     "image": "eagle",
+     "speak": "Eagle",
+     "show": "Eagle"
+    },
+    {
+     "image": "hoopoe",
+     "speak": "Hoopoe",
+     "show": "Hoopoe"
+    },
+    {
+     "image": "hornbill",
+     "speak": "Hornbill",
+     "show": "Hornbill"
+    },
+    {
+     "image": "kingfisher",
+     "speak": "Kingfisher",
+     "show": "Kingfisher"
+    },
+    {
+     "image": "kite",
+     "speak": "Kite",
+     "show": "Kite"
+    },
+    {
+     "image": "lapwing",
+     "speak": "Lapwing",
+     "show": "Lapwing"
+    },
+    {
+     "image": "mynah",
+     "speak": "Mynah",
+     "show": "Mynah"
+    },
+    {
+     "image": "nightingale",
+     "speak": "Nightingale",
+     "show": "Nightingale"
+    },
+    {
+     "image": "owl",
+     "speak": "Owl",
+     "show": "Owl"
+    },
+    {
+     "image": "parrot",
+     "speak": "Parrot",
+     "show": "Parrot"
+    },
+    {
+     "image": "peacock",
+     "speak": "Peacock",
+     "show": "Peacock"
+    },
+    {
+     "image": "peahen",
+     "speak": "Peahen",
+     "show": "Peahen"
+    },
+    {
+     "image": "pheasant",
+     "speak": "Pheasant",
+     "show": "Pheasant"
+    },
+    {
+     "image": "pigeon",
+     "speak": "Pigeon",
+     "show": "Pigeon"
+    },
+    {
+     "image": "puffin",
+     "speak": "Puffin",
+     "show": "Puffin"
+    },
+    {
+     "image": "quail",
+     "speak": "Quail",
+     "show": "Quail"
+    },
+    {
+     "image": "robin",
+     "speak": "Robin",
+     "show": "Robin"
+    },
+    {
+     "image": "sparrow",
+     "speak": "Sparrow",
+     "show": "Sparrow"
+    },
+    {
+     "image": "swallow",
+     "speak": "Swallow",
+     "show": "Swallow"
+    },
+    {
+     "image": "toucan",
+     "speak": "Toucan",
+     "show": "Toucan"
+    },
+    {
+     "image": "vulture",
+     "speak": "Vulture",
+     "show": "Vulture"
+    },
+    {
+     "image": "wagtail",
+     "speak": "Wagtail",
+     "show": "Wagtail"
+    },
+    {
+     "image": "waxwing",
+     "speak": "Waxwing",
+     "show": "Waxwing"
+    },
+    {
+     "image": "woodpecker",
+     "speak": "Woodpecker",
+     "show": "Woodpecker"
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "title": "Flowers",
+   "icon": "home_flower",
+   "items": [
+    {
+     "image": "arum_lily",
+     "speak": "Arum Lily",
+     "show": "Arum Lily"
+    },
+    {
+     "image": "aster",
+     "speak": "Aster",
+     "show": "Aster"
+    },
+    {
+     "image": "bird_of_paradise",
+     "speak": "Bird Of Paradise",
+     "show": "Bird Of Paradise"
+    },
+    {
+     "image": "bougainvillea",
+     "speak": "Bougainvillea",
+     "show": "Bougainvillea"
+    },
+    {
+     "image": "buttercup",
+     "speak": "Buttercup",
+     "show": "Buttercup"
+    },
+    {
+     "image": "calendula",
+     "speak": "Calendula",
+     "show": "Calendula"
+    },
+    {
+     "image": "canna",
+     "speak": "Canna",
+     "show": "Canna"
+    },
+    {
+     "image": "cockscomb",
+     "speak": "Cockscomb",
+     "show": "Cockscomb"
+    },
+    {
+     "image": "daffodils",
+     "speak": "Daffodils",
+     "show": "Daffodils"
+    },
+    {
+     "image": "dahlia",
+     "speak": "Dahlia",
+     "show": "Dahlia"
+    },
+    {
+     "image": "daisy",
+     "speak": "Daisy",
+     "show": "Daisy"
+    },
+    {
+     "image": "dianthus",
+     "speak": "Dianthus",
+     "show": "Dianthus"
+    },
+    {
+     "image": "gladiolus",
+     "speak": "Gladiolus",
+     "show": "Gladiolus"
+    },
+    {
+     "image": "hibiscus",
+     "speak": "Hibiscus",
+     "show": "Hibiscus"
+    },
+    {
+     "image": "jasmine",
+     "speak": "Jasmine",
+     "show": "Jasmine"
+    },
+    {
+     "image": "lavender",
+     "speak": "Lavender",
+     "show": "Lavender"
+    },
+    {
+     "image": "lilac",
+     "speak": "Lilac",
+     "show": "Lilac"
+    },
+    {
+     "image": "lily",
+     "speak": "Lily",
+     "show": "Lily"
+    },
+    {
+     "image": "lotus",
+     "speak": "Lotus",
+     "show": "Lotus"
+    },
+    {
+     "image": "morning_glory",
+     "speak": "Morning Glory",
+     "show": "Morning Glory"
+    },
+    {
+     "image": "nerium_oleander",
+     "speak": "Nerium Oleander",
+     "show": "Nerium Oleander"
+    },
+    {
+     "image": "orchids",
+     "speak": "Orchids",
+     "show": "Orchids"
+    },
+    {
+     "image": "peony",
+     "speak": "Peony",
+     "show": "Peony"
+    },
+    {
+     "image": "periwinkle",
+     "speak": "Periwinkle",
+     "show": "Periwinkle"
+    },
+    {
+     "image": "petunia",
+     "speak": "Petunia",
+     "show": "Petunia"
+    },
+    {
+     "image": "poppy",
+     "speak": "Poppy",
+     "show": "Poppy"
+    },
+    {
+     "image": "purple_mallow",
+     "speak": "Purple Mallow",
+     "show": "Purple Mallow"
+    },
+    {
+     "image": "rose",
+     "speak": "Rose",
+     "show": "Rose"
+    },
+    {
+     "image": "sunflower",
+     "speak": "Sunflower",
+     "show": "Sunflower"
+    },
+    {
+     "image": "tulips",
+     "speak": "Tulips",
+     "show": "Tulips"
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "title": "Fruits",
+   "icon": "home_fruits",
+   "items": [
+    {
+     "image": "apple",
+     "speak": "Apple",
+     "show": "Apple"
+    },
+    {
+     "image": "apricot",
+     "speak": "Apricot",
+     "show": "Apricot"
+    },
+    {
+     "image": "avocado",
+     "speak": "Avocado",
+     "show": "Avocado"
+    },
+    {
+     "image": "blackberry",
+     "speak": "Blackberry",
+     "show": "Blackberry"
+    },
+    {
+     "image": "blackcurrant",
+     "speak": "Blackcurrant",
+     "show": "Blackcurrant"
+    },
+    {
+     "image": "blueberry",
+     "speak": "Blueberry",
+     "show": "Blueberry"
+    },
+    {
+     "image": "cherry",
+     "speak": "Cherry",
+     "show": "Cherry"
+    },
+    {
+     "image": "coconut",
+     "speak": "Coconut",
+     "show": "Coconut"
+    },
+    {
+     "image": "fig",
+     "speak": "Fig",
+     "show": "Fig"
+    },
+    {
+     "image": "grape",
+     "speak": "Grape",
+     "show": "Grape"
+    },
+    {
+     "image": "kiwi",
+     "speak": "Kiwi",
+     "show": "Kiwi"
+    },
+    {
+     "image": "lemon",
+     "speak": "Lemon",
+     "show": "Lemon"
+    },
+    {
+     "image": "lime",
+     "speak": "Lime",
+     "show": "Lime"
+    },
+    {
+     "image": "lychee",
+     "speak": "Lychee",
+     "show": "Lychee"
+    },
+    {
+     "image": "mango",
+     "speak": "Mango",
+     "show": "Mango"
+    },
+    {
+     "image": "nectarine",
+     "speak": "Nectarine",
+     "show": "Nectarine"
+    },
+    {
+     "image": "orange",
+     "speak": "Orange",
+     "show": "Orange"
+    },
+    {
+     "image": "papaya",
+     "speak": "Papaya",
+     "show": "Papaya"
+    },
+    {
+     "image": "passion",
+     "speak": "Passion",
+     "show": "Passion"
+    },
+    {
+     "image": "peach",
+     "speak": "Peach",
+     "show": "Peach"
+    },
+    {
+     "image": "pear",
+     "speak": "Pear",
+     "show": "Pear"
+    },
+    {
+     "image": "pineapple",
+     "speak": "Pineapple",
+     "show": "Pineapple"
+    },
+    {
+     "image": "plum",
+     "speak": "Plum",
+     "show": "Plum"
+    },
+    {
+     "image": "quince",
+     "speak": "Quince",
+     "show": "Quince"
+    },
+    {
+     "image": "raspberry",
+     "speak": "Raspberry",
+     "show": "Raspberry"
+    },
+    {
+     "image": "strawberry",
+     "speak": "Strawberry",
+     "show": "Strawberry"
+    },
+    {
+     "image": "watermelon",
+     "speak": "Watermelon",
+     "show": "Watermelon"
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "title": "Month",
+   "icon": "home_month",
+   "items": [
+    {
+     "image": "january",
+     "speak": "January",
+     "show": "January"
+    },
+    {
+     "image": "february",
+     "speak": "February",
+     "show": "February"
+    },
+    {
+     "image": "march",
+     "speak": "March",
+     "show": "March"
+    },
+    {
+     "image": "april",
+     "speak": "April",
+     "show": "April"
+    },
+    {
+     "image": "may",
+     "speak": "May",
+     "show": "May"
+    },
+    {
+     "image": "june",
+     "speak": "June",
+     "show": "June"
+    },
+    {
+     "image": "july",
+     "speak": "July",
+     "show": "July"
+    },
+    {
+     "image": "august",
+     "speak": "August",
+     "show": "August"
+    },
+    {
+     "image": "september",
+     "speak": "September",
+     "show": "September"
+    },
+    {
+     "image": "october",
+     "speak": "October",
+     "show": "October"
+    },
+    {
+     "image": "november",
+     "speak": "November",
+     "show": "November"
+    },
+    {
+     "image": "december",
+     "speak": "December",
+     "show": "December"
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "title": "Vegetable",
+   "icon": "home_vegetable",
+   "items": [
+    {
+     "image": "asparagus",
+     "speak": "Asparagus",
+     "show": "Asparagus"
+    },
+    {
+     "image": "broccoli",
+     "speak": "Broccoli",
+     "show": "Broccoli"
+    },
+    {
+     "image": "brussels_sprouts",
+     "speak": "Brussels Sprouts",
+     "show": "Brussels Sprouts"
+    },
+    {
+     "image": "carrot",
+     "speak": "Carrot",
+     "show": "Carrot"
+    },
+    {
+     "image": "cauliflower",
+     "speak": "Cauliflower",
+     "show": "Cauliflower"
+    },
+    {
+     "image": "cucumber",
+     "speak": "Cucumber",
+     "show": "Cucumber"
+    },
+    {
+     "image": "eggplant",
+     "speak": "Eggplant",
+     "show": "Eggplant"
+    },
+    {
+     "image": "garlic",
+     "speak": "Garlic",
+     "show": "Garlic"
+    },
+    {
+     "image": "lettuce",
+     "speak": "Lettuce",
+     "show": "Lettuce"
+    },
+    {
+     "image": "mint",
+     "speak": "Mint",
+     "show": "Mint"
+    },
+    {
+     "image": "mushroom",
+     "speak": "Mushroom",
+     "show": "Mushroom"
+    },
+    {
+     "image": "okra",
+     "speak": "Okra",
+     "show": "Okra"
+    },
+    {
+     "image": "onion",
+     "speak": "Onion",
+     "show": "Onion"
+    },
+    {
+     "image": "peaspeas",
+     "speak": "Peaspeas",
+     "show": "Peaspeas"
+    },
+    {
+     "image": "potato",
+     "speak": "Potato",
+     "show": "Potato"
+    },
+    {
+     "image": "radish",
+     "speak": "Radish",
+     "show": "Radish"
+    },
+    {
+     "image": "red_cabbage",
+     "speak": "Red Cabbage",
+     "show": "Red Cabbage"
+    },
+    {
+     "image": "spinach",
+     "speak": "Spinach",
+     "show": "Spinach"
+    },
+    {
+     "image": "squash",
+     "speak": "Squash",
+     "show": "Squash"
+    },
+    {
+     "image": "string_beans",
+     "speak": "String Beans",
+     "show": "String Beans"
+    },
+    {
+     "image": "tomato",
+     "speak": "Tomato",
+     "show": "Tomato"
+    },
+    {
+     "image": "turnip",
+     "speak": "Turnip",
+     "show": "Turnip"
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "title": "Body Parts",
+   "icon": "home_body_parts",
+   "items": [
+    {
+     "image": "ankle",
+     "speak": "Ankle",
+     "show": "Ankle"
+    },
+    {
+     "image": "arm",
+     "speak": "Arm",
+     "show": "Arm"
+    },
+    {
+     "image": "chest",
+     "speak": "Chest",
+     "show": "Chest"
+    },
+    {
+     "image": "ear",
+     "speak": "Ear",
+     "show": "Ear"
+    },
+    {
+     "image": "elbow",
+     "speak": "Elbow",
+     "show": "Elbow"
+    },
+    {
+     "image": "eye",
+     "speak": "Eye",
+     "show": "Eye"
+    },
+    {
+     "image": "fingers",
+     "speak": "Fingers",
+     "show": "Fingers"
+    },
+    {
+     "image": "foot",
+     "speak": "Foot",
+     "show": "Foot"
+    },
+    {
+     "image": "hair",
+     "speak": "Hair",
+     "show": "Hair"
+    },
+    {
+     "image": "knee",
+     "speak": "Knee",
+     "show": "Knee"
+    },
+    {
+     "image": "leg",
+     "speak": "Leg",
+     "show": "Leg"
+    },
+    {
+     "image": "lips",
+     "speak": "Lips",
+     "show": "Lips"
+    },
+    {
+     "image": "mouth",
+     "speak": "Mouth",
+     "show": "Mouth"
+    },
+    {
+     "image": "neck",
+     "speak": "Neck",
+     "show": "Neck"
+    },
+    {
+     "image": "nose",
+     "speak": "Nose",
+     "show": "Nose"
+    },
+    {
+     "image": "shoulder",
+     "speak": "Shoulder",
+     "show": "Shoulder"
+    },
+    {
+     "image": "stomach",
+     "speak": "Stomach",
+     "show": "Stomach"
+    },
+    {
+     "image": "thigh",
+     "speak": "Thigh",
+     "show": "Thigh"
+    },
+    {
+     "image": "thumb",
+     "speak": "Thumb",
+     "show": "Thumb"
+    },
+    {
+     "image": "toe",
+     "speak": "Toe",
+     "show": "Toe"
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "title": "Clothes",
+   "icon": "home_clothes",
+   "items": [
+    {
+     "image": "shirt",
+     "speak": "Shirt",
+     "show": "Shirt"
+    },
+    {
+     "image": "shoes",
+     "speak": "Shoes",
+     "show": "Shoes"
+    },
+    {
+     "image": "pyjamas",
+     "speak": "Pyjamas",
+     "show": "Pyjamas"
+    },
+    {
+     "image": "sock",
+     "speak": "Sock",
+     "show": "Sock"
+    },
+    {
+     "image": "gloves",
+     "speak": "Gloves",
+     "show": "Gloves"
+    },
+    {
+     "image": "skirt",
+     "speak": "Skirt",
+     "show": "Skirt"
+    },
+    {
+     "image": "slipper",
+     "speak": "Slipper",
+     "show": "Slipper"
+    },
+    {
+     "image": "sweater",
+     "speak": "Sweater",
+     "show": "Sweater"
+    },
+    {
+     "image": "bathrobe",
+     "speak": "Bathrobe",
+     "show": "Bathrobe"
+    },
+    {
+     "image": "jeans",
+     "speak": "Jeans",
+     "show": "Jeans"
+    },
+    {
+     "image": "boot",
+     "speak": "Boot",
+     "show": "Boot"
+    },
+    {
+     "image": "dress",
+     "speak": "Dress",
+     "show": "Dress"
+    },
+    {
+     "image": "overalls",
+     "speak": "Overalls",
+     "show": "Overalls"
+    },
+    {
+     "image": "shorts",
+     "speak": "Shorts",
+     "show": "Shorts"
+    },
+    {
+     "image": "jacket",
+     "speak": "Jacket",
+     "show": "Jacket"
+    },
+    {
+     "image": "scarf",
+     "speak": "Scarf",
+     "show": "Scarf"
+    },
+    {
+     "image": "belt",
+     "speak": "Belt",
+     "show": "Belt"
+    },
+    {
+     "image": "hat",
+     "speak": "Hat",
+     "show": "Hat"
+    },
+    {
+     "image": "glasses",
+     "speak": "Glasses",
+     "show": "Glasses"
+    },
+    {
+     "image": "suit",
+     "speak": "Suit",
+     "show": "Suit"
+    },
+    {
+     "image": "veterinarian",
+     "speak": "Veterinarian",
+     "show": "Veterinarian"
+    },
+    {
+     "image": "tailor",
+     "speak": "Tailor",
+     "show": "Tailor"
+    },
+    {
+     "image": "waiter",
+     "speak": "Waiter",
+     "show": "Waiter"
+    },
+    {
+     "image": "welder",
+     "speak": "Welder",
+     "show": "Welder"
+    },
+    {
+     "image": "traffic_warden",
+     "speak": "Traffic Warden",
+     "show": "Traffic Warden"
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "title": "Country",
+   "icon": "home_country",
+   "items": [
+    {
+     "image": "argentina",
+     "speak": "Argentina",
+     "show": "Argentina"
+    },
+    {
+     "image": "austria",
+     "speak": "Austria",
+     "show": "Austria"
+    },
+    {
+     "image": "belgium",
+     "speak": "Belgium",
+     "show": "Belgium"
+    },
+    {
+     "image": "brazil",
+     "speak": "Brazil",
+     "show": "Brazil"
+    },
+    {
+     "image": "cambodia",
+     "speak": "Cambodia",
+     "show": "Cambodia"
+    },
+    {
+     "image": "canada",
+     "speak": "Canada",
+     "show": "Canada"
+    },
+    {
+     "image": "croatia",
+     "speak": "Croatia",
+     "show": "Croatia"
+    },
+    {
+     "image": "cuba",
+     "speak": "Cuba",
+     "show": "Cuba"
+    },
+    {
+     "image": "denmark",
+     "speak": "Denmark",
+     "show": "Denmark"
+    },
+    {
+     "image": "england",
+     "speak": "England",
+     "show": "England"
+    },
+    {
+     "image": "france",
+     "speak": "France",
+     "show": "France"
+    },
+    {
+     "image": "germany",
+     "speak": "Germany",
+     "show": "Germany"
+    },
+    {
+     "image": "greece",
+     "speak": "Greece",
+     "show": "Greece"
+    },
+    {
+     "image": "indian",
+     "speak": "Indian",
+     "show": "Indian"
+    },
+    {
+     "image": "indonesia",
+     "speak": "Indonesia",
+     "show": "Indonesia"
+    },
+    {
+     "image": "italy",
+     "speak": "Italy",
+     "show": "Italy"
+    },
+    {
+     "image": "japan",
+     "speak": "Japan",
+     "show": "Japan"
+    },
+    {
+     "image": "laos",
+     "speak": "Laos",
+     "show": "Laos"
+    },
+    {
+     "image": "malaysia",
+     "speak": "Malaysia",
+     "show": "Malaysia"
+    },
+    {
+     "image": "mexico",
+     "speak": "Mexico",
+     "show": "Mexico"
+    },
+    {
+     "image": "myanmar",
+     "speak": "Myanmar",
+     "show": "Myanmar"
+    },
+    {
+     "image": "netherlands",
+     "speak": "Netherlands",
+     "show": "Netherlands"
+    },
+    {
+     "image": "pakistan",
+     "speak": "Pakistan",
+     "show": "Pakistan"
+    },
+    {
+     "image": "philippine",
+     "speak": "Philippine",
+     "show": "Philippine"
+    },
+    {
+     "image": "portugal",
+     "speak": "Portugal",
+     "show": "Portugal"
+    },
+    {
+     "image": "russia",
+     "speak": "Russia",
+     "show": "Russia"
+    },
+    {
+     "image": "saudi_arabia",
+     "speak": "Saudi Arabia",
+     "show": "Saudi Arabia"
+    },
+    {
+     "image": "singapore",
+     "speak": "Singapore",
+     "show": "Singapore"
+    },
+    {
+     "image": "south_korea",
+     "speak": "South Korea",
+     "show": "South Korea"
+    },
+    {
+     "image": "spain",
+     "speak": "Spain",
+     "show": "Spain"
+    },
+    {
+     "image": "sweden",
+     "speak": "Sweden",
+     "show": "Sweden"
+    },
+    {
+     "image": "thailand",
+     "speak": "Thailand",
+     "show": "Thailand"
+    },
+    {
+     "image": "united_states",
+     "speak": "United States",
+     "show": "United States"
+    },
+    {
+     "image": "vietnam",
+     "speak": "Vietnam",
+     "show": "Vietnam"
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "title": "Food",
+   "icon": "home_food",
+   "items": [
+    {
+     "image": "pizza",
+     "speak": "Pizza",
+     "show": "Pizza"
+    },
+    {
+     "image": "biscuits",
+     "speak": "Biscuits",
+     "show": "Biscuits"
+    },
+    {
+     "image": "chip",
+     "speak": "Chip",
+     "show": "Chip"
+    },
+    {
+     "image": "cake",
+     "speak": "Cake",
+     "show": "Cake"
+    },
+    {
+     "image": "noodles",
+     "speak": "Noodles",
+     "show": "Noodles"
+    },
+    {
+     "image": "water",
+     "speak": "Water",
+     "show": "Water"
+    },
+    {
+     "image": "sandwich",
+     "speak": "Sandwich",
+     "show": "Sandwich"
+    },
+    {
+     "image": "ice_cream",
+     "speak": "Ice Cream",
+     "show": "Ice Cream"
+    },
+    {
+     "image": "beer",
+     "speak": "Beer",
+     "show": "Beer"
+    },
+    {
+     "image": "hamburger",
+     "speak": "Hamburger",
+     "show": "Hamburger"
+    },
+    {
+     "image": "tea",
+     "speak": "Tea",
+     "show": "Tea"
+    },
+    {
+     "image": "ham",
+     "speak": "Ham",
+     "show": "Ham"
+    },
+    {
+     "image": "yogurt",
+     "speak": "Yogurt",
+     "show": "Yogurt"
+    },
+    {
+     "image": "chocolate",
+     "speak": "Chocolate",
+     "show": "Chocolate"
+    },
+    {
+     "image": "rice",
+     "speak": "Rice",
+     "show": "Rice"
+    },
+    {
+     "image": "soda",
+     "speak": "Soda",
+     "show": "Soda"
+    },
+    {
+     "image": "juice",
+     "speak": "Juice",
+     "show": "Juice"
+    },
+    {
+     "image": "coffee",
+     "speak": "Coffee",
+     "show": "Coffee"
+    },
+    {
+     "image": "bread",
+     "speak": "Bread",
+     "show": "Bread"
+    },
+    {
+     "image": "soup",
+     "speak": "Soup",
+     "show": "Soup"
+    },
+    {
+     "image": "butter",
+     "speak": "Butter",
+     "show": "Butter"
+    },
+    {
+     "image": "cheese",
+     "speak": "Cheese",
+     "show": "Cheese"
+    },
+    {
+     "image": "milk",
+     "speak": "Milk",
+     "show": "Milk"
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "title": "Geometry",
+   "icon": "home_geometry",
+   "items": [
+    {
+     "image": "arrow",
+     "speak": "Arrow",
+     "show": "Arrow"
+    },
+    {
+     "image": "circle",
+     "speak": "Circle",
+     "show": "Circle"
+    },
+    {
+     "image": "cone",
+     "speak": "Cone",
+     "show": "Cone"
+    },
+    {
+     "image": "crescent",
+     "speak": "Crescent",
+     "show": "Crescent"
+    },
+    {
+     "image": "cube",
+     "speak": "Cube",
+     "show": "Cube"
+    },
+    {
+     "image": "cuboid",
+     "speak": "Cuboid",
+     "show": "Cuboid"
+    },
+    {
+     "image": "cylinder",
+     "speak": "Cylinder",
+     "show": "Cylinder"
+    },
+    {
+     "image": "diamond",
+     "speak": "Diamond",
+     "show": "Diamond"
+    },
+    {
+     "image": "heart",
+     "speak": "Heart",
+     "show": "Heart"
+    },
+    {
+     "image": "hexagon",
+     "speak": "Hexagon",
+     "show": "Hexagon"
+    },
+    {
+     "image": "oval",
+     "speak": "Oval",
+     "show": "Oval"
+    },
+    {
+     "image": "parallelogram",
+     "speak": "Parallelogram",
+     "show": "Parallelogram"
+    },
+    {
+     "image": "pentagon",
+     "speak": "Pentagon",
+     "show": "Pentagon"
+    },
+    {
+     "image": "polygon",
+     "speak": "Polygon",
+     "show": "Polygon"
+    },
+    {
+     "image": "pyramid",
+     "speak": "Pyramid",
+     "show": "Pyramid"
+    },
+    {
+     "image": "rectangle",
+     "speak": "Rectangle",
+     "show": "Rectangle"
+    },
+    {
+     "image": "sphere",
+     "speak": "Sphere",
+     "show": "Sphere"
+    },
+    {
+     "image": "star",
+     "speak": "Star",
+     "show": "Star"
+    },
+    {
+     "image": "trapezoid",
+     "speak": "Trapezoid",
+     "show": "Trapezoid"
+    },
+    {
+     "image": "triangle",
+     "speak": "Triangle",
+     "show": "Triangle"
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "title": "House",
+   "icon": "home_house",
+   "items": [
+    {
+     "image": "bookcase",
+     "speak": "Bookcase",
+     "show": "Bookcase"
+    },
+    {
+     "image": "chair",
+     "speak": "Chair",
+     "show": "Chair"
+    },
+    {
+     "image": "newspaper",
+     "speak": "Newspaper",
+     "show": "Newspaper"
+    },
+    {
+     "image": "sofasofa",
+     "speak": "Sofa",
+     "show": "Sofa"
+    },
+    {
+     "image": "picture",
+     "speak": "Picture",
+     "show": "Picture"
+    },
+    {
+     "image": "watch",
+     "speak": "Watch",
+     "show": "Watch"
+    },
+    {
+     "image": "brush",
+     "speak": "Brush",
+     "show": "Brush"
+    },
+    {
+     "image": "television",
+     "speak": "Television",
+     "show": "Television"
+    },
+    {
+     "image": "table",
+     "speak": "Table",
+     "show": "Table"
+    },
+    {
+     "image": "coin",
+     "speak": "Coin",
+     "show": "Coin"
+    },
+    {
+     "image": "phone",
+     "speak": "Phone",
+     "show": "Phone"
+    },
+    {
+     "image": "bar_stool",
+     "speak": "Bar Stool",
+     "show": "Bar Stool"
+    },
+    {
+     "image": "laptop",
+     "speak": "Laptop",
+     "show": "Laptop"
+    },
+    {
+     "image": "mirror",
+     "speak": "Mirror",
+     "show": "Mirror"
+    },
+    {
+     "image": "scissors",
+     "speak": "Scissors",
+     "show": "Scissors"
+    },
+    {
+     "image": "umbrella",
+     "speak": "Umbrella",
+     "show": "Umbrella"
+    },
+    {
+     "image": "clock",
+     "speak": "Clock",
+     "show": "Clock"
+    },
+    {
+     "image": "bucket",
+     "speak": "Bucket",
+     "show": "Bucket"
+    },
+    {
+     "image": "cup",
+     "speak": "Cup",
+     "show": "Cup"
+    },
+    {
+     "image": "key",
+     "speak": "Key",
+     "show": "Key"
+    },
+    {
+     "image": "door",
+     "speak": "Door",
+     "show": "Door"
+    },
+    {
+     "image": "glass",
+     "speak": "Glass",
+     "show": "Glass"
+    },
+    {
+     "image": "armchair",
+     "speak": "Armchair",
+     "show": "Armchair"
+    },
+    {
+     "image": "window",
+     "speak": "Window",
+     "show": "Window"
+    },
+    {
+     "image": "knife",
+     "speak": "Knife",
+     "show": "Knife"
+    },
+    {
+     "image": "wallet",
+     "speak": "Wallet",
+     "show": "Wallet"
+    },
+    {
+     "image": "bottle",
+     "speak": "Bottle",
+     "show": "Bottle"
+    },
+    {
+     "image": "mobile_phone",
+     "speak": "Mobile Phone",
+     "show": "Mobile Phone"
+    },
+    {
+     "image": "bed",
+     "speak": "Bed",
+     "show": "Bed"
+    },
+    {
+     "image": "lock",
+     "speak": "Lock",
+     "show": "Lock"
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "title": "Jobs",
+   "icon": "home_jobs",
+   "items": [
+    {
+     "image": "accountant",
+     "speak": "Accountant",
+     "show": "Accountant"
+    },
+    {
+     "image": "architect",
+     "speak": "Architect",
+     "show": "Architect"
+    },
+    {
+     "image": "astronomer",
+     "speak": "Astronomer",
+     "show": "Astronomer"
+    },
+    {
+     "image": "author",
+     "speak": "Author",
+     "show": "Author"
+    },
+    {
+     "image": "baker",
+     "speak": "Baker",
+     "show": "Baker"
+    },
+    {
+     "image": "bricklayer",
+     "speak": "Bricklayer",
+     "show": "Bricklayer"
+    },
+    {
+     "image": "butcher",
+     "speak": "Butcher",
+     "show": "Butcher"
+    },
+    {
+     "image": "carpenter",
+     "speak": "Carpenter",
+     "show": "Carpenter"
+    },
+    {
+     "image": "chef",
+     "speak": "Chef",
+     "show": "Chef"
+    },
+    {
+     "image": "cleaner",
+     "speak": "Cleaner",
+     "show": "Cleaner"
+    },
+    {
+     "image": "dentist",
+     "speak": "Dentist",
+     "show": "Dentist"
+    },
+    {
+     "image": "doctor",
+     "speak": "Doctor",
+     "show": "Doctor"
+    },
+    {
+     "image": "driver",
+     "speak": "Driver",
+     "show": "Driver"
+    },
+    {
+     "image": "dustman",
+     "speak": "Dustman",
+     "show": "Dustman"
+    },
+    {
+     "image": "electrician",
+     "speak": "Electrician",
+     "show": "Electrician"
+    },
+    {
+     "image": "engineer",
+     "speak": "Engineer",
+     "show": "Engineer"
+    },
+    {
+     "image": "farmer",
+     "speak": "Farmer",
+     "show": "Farmer"
+    },
+    {
+     "image": "firefighter",
+     "speak": "Firefighter",
+     "show": "Firefighter"
+    },
+    {
+     "image": "florist",
+     "speak": "Florist",
+     "show": "Florist"
+    },
+    {
+     "image": "gardener",
+     "speak": "Gardener",
+     "show": "Gardener"
+    },
+    {
+     "image": "hairdresser",
+     "speak": "Hairdresser",
+     "show": "Hairdresser"
+    },
+    {
+     "image": "journalist",
+     "speak": "Journalist",
+     "show": "Journalist"
+    },
+    {
+     "image": "judge",
+     "speak": "Judge",
+     "show": "Judge"
+    },
+    {
+     "image": "lawyer",
+     "speak": "Lawyer",
+     "show": "Lawyer"
+    },
+    {
+     "image": "lecturer",
+     "speak": "Lecturer",
+     "show": "Lecturer"
+    },
+    {
+     "image": "librarian",
+     "speak": "Librarian",
+     "show": "Librarian"
+    },
+    {
+     "image": "lifeguard",
+     "speak": "Lifeguard",
+     "show": "Lifeguard"
+    },
+    {
+     "image": "mechanics",
+     "speak": "Mechanics",
+     "show": "Mechanics"
+    },
+    {
+     "image": "model",
+     "speak": "Model",
+     "show": "Model"
+    },
+    {
+     "image": "nurse",
+     "speak": "Nurse",
+     "show": "Nurse"
+    },
+    {
+     "image": "optician",
+     "speak": "Optician",
+     "show": "Optician"
+    },
+    {
+     "image": "painter",
+     "speak": "Painter",
+     "show": "Painter"
+    },
+    {
+     "image": "pharmacist",
+     "speak": "Pharmacist",
+     "show": "Pharmacist"
+    },
+    {
+     "image": "photographer",
+     "speak": "Photographer",
+     "show": "Photographer"
+    },
+    {
+     "image": "pilot",
+     "speak": "Pilot",
+     "show": "Pilot"
+    },
+    {
+     "image": "plumber",
+     "speak": "Plumber",
+     "show": "Plumber"
+    },
+    {
+     "image": "receptionist",
+     "speak": "Receptionist",
+     "show": "Receptionist"
+    },
+    {
+     "image": "scientist",
+     "speak": "Scientist",
+     "show": "Scientist"
+    },
+    {
+     "image": "soldier",
+     "speak": "Soldier",
+     "show": "Soldier"
+    },
+    {
+     "image": "student",
+     "speak": "Student",
+     "show": "Student"
+    },
+    {
+     "image": "tailor",
+     "speak": "Tailor",
+     "show": "Tailor"
+    },
+    {
+     "image": "traffic_warden",
+     "speak": "Traffic Warden",
+     "show": "Traffic Warden"
+    },
+    {
+     "image": "veterinarian",
+     "speak": "Veterinarian",
+     "show": "Veterinarian"
+    },
+    {
+     "image": "waiter",
+     "speak": "Waiter",
+     "show": "Waiter"
+    },
+    {
+     "image": "welder",
+     "speak": "Welder",
+     "show": "Welder"
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "title": "School",
+   "icon": "home_school",
+   "items": [
+    {
+     "image": "board",
+     "speak": "Board",
+     "show": "Board"
+    },
+    {
+     "image": "book",
+     "speak": "Book",
+     "show": "Book"
+    },
+    {
+     "image": "chair",
+     "speak": "Chair",
+     "show": "Chair"
+    },
+    {
+     "image": "compass",
+     "speak": "Compass",
+     "show": "Compass"
+    },
+    {
+     "image": "computer",
+     "speak": "Computer",
+     "show": "Computer"
+    },
+    {
+     "image": "desk",
+     "speak": "Desk",
+     "show": "Desk"
+    },
+    {
+     "image": "dictionary",
+     "speak": "Dictionary",
+     "show": "Dictionary"
+    },
+    {
+     "image": "eraser",
+     "speak": "Eraser",
+     "show": "Eraser"
+    },
+    {
+     "image": "globe",
+     "speak": "Globe",
+     "show": "Globe"
+    },
+    {
+     "image": "map",
+     "speak": "Map",
+     "show": "Map"
+    },
+    {
+     "image": "notebook",
+     "speak": "Notebook",
+     "show": "Notebook"
+    },
+    {
+     "image": "pen",
+     "speak": "Pen",
+     "show": "Pen"
+    },
+    {
+     "image": "pencil",
+     "speak": "Pencil",
+     "show": "Pencil"
+    },
+    {
+     "image": "ruler",
+     "speak": "Ruler",
+     "show": "Ruler"
+    },
+    {
+     "image": "school_bag",
+     "speak": "School bag",
+     "show": "School bag"
+    },
+    {
+     "image": "teacher",
+     "speak": "Teacher",
+     "show": "Teacher"
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "title": "Sports",
+   "icon": "home_sports",
+   "items": [
+    {
+     "image": "chess",
+     "speak": "Chess",
+     "show": "Chess"
+    },
+    {
+     "image": "windsurfing",
+     "speak": "Windsurfing",
+     "show": "Windsurfing"
+    },
+    {
+     "image": "bowling",
+     "speak": "Bowling",
+     "show": "Bowling"
+    },
+    {
+     "image": "karate",
+     "speak": "Karate",
+     "show": "Karate"
+    },
+    {
+     "image": "ice_skating",
+     "speak": "Ice Skating",
+     "show": "Ice Skating"
+    },
+    {
+     "image": "table_tennis",
+     "speak": "Table Tennis",
+     "show": "Table Tennis"
+    },
+    {
+     "image": "badminton",
+     "speak": "Badminton",
+     "show": "Badminton"
+    },
+    {
+     "image": "swimming",
+     "speak": "Swimming",
+     "show": "Swimming"
+    },
+    {
+     "image": "football",
+     "speak": "Football",
+     "show": "Football"
+    },
+    {
+     "image": "hockey",
+     "speak": "Hockey",
+     "show": "Hockey"
+    },
+    {
+     "image": "equestrian",
+     "speak": "Equestrian",
+     "show": "Equestrian"
+    },
+    {
+     "image": "cycling",
+     "speak": "Cycling",
+     "show": "Cycling"
+    },
+    {
+     "image": "diving",
+     "speak": "Diving",
+     "show": "Diving"
+    },
+    {
+     "image": "judo",
+     "speak": "Judo",
+     "show": "Judo"
+    },
+    {
+     "image": "golf",
+     "speak": "Golf",
+     "show": "Golf"
+    },
+    {
+     "image": "baseball",
+     "speak": "Baseball",
+     "show": "Baseball"
+    },
+    {
+     "image": "volleyball",
+     "speak": "Volleyball",
+     "show": "Volleyball"
+    },
+    {
+     "image": "surfing",
+     "speak": "Surfing",
+     "show": "Surfing"
+    },
+    {
+     "image": "skateboarding",
+     "speak": "Skateboarding",
+     "show": "Skateboarding"
+    },
+    {
+     "image": "skiing",
+     "speak": "Skiing",
+     "show": "Skiing"
+    },
+    {
+     "image": "archery",
+     "speak": "Archery",
+     "show": "Archery"
+    },
+    {
+     "image": "canoeing",
+     "speak": "Canoeing",
+     "show": "Canoeing"
+    },
+    {
+     "image": "running",
+     "speak": "Running",
+     "show": "Running"
+    },
+    {
+     "image": "billiards",
+     "speak": "Billiards",
+     "show": "Billiards"
+    },
+    {
+     "image": "fencing",
+     "speak": "Fencing",
+     "show": "Fencing"
+    },
+    {
+     "image": "tennis",
+     "speak": "Tennis",
+     "show": "Tennis"
+    },
+    {
+     "image": "basketball",
+     "speak": "Basketball",
+     "show": "Basketball"
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "title": "Vehicle",
+   "icon": "home_vehicle",
+   "items": [
+    {
+     "image": "ambulance",
+     "speak": "Ambulance",
+     "show": "Ambulance"
+    },
+    {
+     "image": "bike",
+     "speak": "Bike",
+     "show": "Bike"
+    },
+    {
+     "image": "boat",
+     "speak": "Boat",
+     "show": "Boat"
+    },
+    {
+     "image": "bus",
+     "speak": "Bus",
+     "show": "Bus"
+    },
+    {
+     "image": "car",
+     "speak": "Car",
+     "show": "Car"
+    },
+    {
+     "image": "container_truck",
+     "speak": "Container Truck",
+     "show": "Container Truck"
+    },
+    {
+     "image": "fire_truck",
+     "speak": "Fire Truck",
+     "show": "Fire Truck"
+    },
+    {
+     "image": "helicopter",
+     "speak": "Helicopter",
+     "show": "Helicopter"
+    },
+    {
+     "image": "motorbike",
+     "speak": "Motorbike",
+     "show": "Motorbike"
+    },
+    {
+     "image": "plane",
+     "speak": "Plane",
+     "show": "Plane"
+    },
+    {
+     "image": "police_car",
+     "speak": "Police Car",
+     "show": "Police Car"
+    },
+    {
+     "image": "ship",
+     "speak": "Ship",
+     "show": "Ship"
+    },
+    {
+     "image": "subway",
+     "speak": "Subway",
+     "show": "Subway"
+    },
+    {
+     "image": "train",
+     "speak": "Train",
+     "show": "Train"
+    },
+    {
+     "image": "truck",
+     "speak": "Truck",
+     "show": "Truck"
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "title": "Golden Words",
+   "icon": "home_golden",
+   "items": [
+    {
+     "image": "please",
+     "speak": "Please",
+     "show": "Please"
+    },
+    {
+     "image": "thank_you",
+     "speak": "Thank You",
+     "show": "Thank You"
+    },
+    {
+     "image": "sorry",
+     "speak": "Sorry",
+     "show": "Sorry"
+    },
+    {
+     "image": "excuse_me",
+     "speak": "Excuse Me",
+     "show": "Excuse Me"
+    },
+    {
+     "image": "welcome",
+     "speak": "You're Welcome",
+     "show": "You're Welcome"
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "title": "Lines",
+   "icon": "line_zigzag",
+   "items": [
+    {
+     "image": "line_standing",
+     "speak": "Standing Line",
+     "show": "Standing Line"
+    },
+    {
+     "image": "line_sleeping",
+     "speak": "Sleeping Line",
+     "show": "Sleeping Line"
+    },
+    {
+     "image": "line_slanting",
+     "speak": "Slanting Line",
+     "show": "Slanting Line"
+    },
+    {
+     "image": "line_zigzag",
+     "speak": "Zig Zag Line",
+     "show": "Zig Zag Line"
+    },
+    {
+     "image": "line_curved",
+     "speak": "Curved Line",
+     "show": "Curved Line"
+    },
+    {
+     "image": "line_wavy",
+     "speak": "Wavy Line",
+     "show": "Wavy Line"
+    }
+   ]
+  }
+ ]
+}
