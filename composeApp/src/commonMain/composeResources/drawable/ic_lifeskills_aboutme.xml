@@ -4,8 +4,7 @@
     android:height="200dp"
     android:viewportWidth="200"
     android:viewportHeight="200">
-    <path
-        android:fillColor="#FFF3E0"
-        android:pathData="M24,0 H176 A24,24 0 0 1 200,24 V176 A24,24 0 0 1 176,200 H24 A24,24 0 0 1 0,176 V24 A24,24 0 0 1 24,0 Z" />
+    <group android:translateX="0" android:translateY="5">
     <path android:fillColor="#FFB300" android:pathData="M45,95 a55,55 0 1,0 110,0 a55,55 0 1,0 -110,0" /><path android:fillColor="#5D4037" android:pathData="M73,85 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" /><path android:fillColor="#5D4037" android:pathData="M113,85 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" /><path android:pathData="M70,110 Q100,140 130,110" android:strokeColor="#5D4037" android:strokeWidth="8" android:strokeLineCap="round" />
+    </group>
 </vector>

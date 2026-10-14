@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="kd_colorPrimary">#008577</color>
-    <color name="kd_colorPrimaryDark">#00574B</color>
+    <color name="kd_colorPrimary">#3A6FD8</color>
+    <color name="kd_colorPrimaryDark">#2F5BB5</color>
     <color name="transparent_">#00ffffff</color>
     <color name="kd_colorAccent">#D81B60</color>
     <color name="notification_theme">#80DEEA</color>
+    <color name="dash_body_light_bottom">#3A6FD8</color>
+    <color name="dash_body_light_top">#3A6FD8</color>
 
     <color name="kd_colorTheme">#028BFF</color>
     <!-- Matches @color/colorTheme in the host app, used only on headers that
@@ -13,10 +15,6 @@
     <color name="colorDarkBlue">#028BFF</color>
     <color name="colorLightBlue">#57B2FF</color>
     <color name="colorVeryLightBlue">#E1F1FE</color>
-    <color name="dash_body_light_bottom">#E1F1FE</color>
-      <color name="dash_body_light_top">#E1F1FE</color>
-
-    
 
     <color name="colorShareBtn">#37dd51</color>
 

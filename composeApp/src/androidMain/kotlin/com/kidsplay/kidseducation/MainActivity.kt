@@ -6,6 +6,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.harvitech.kidsdrawing.activities.BGImageListActivity
+import com.harvitech.kidsdrawing.activities.EditorActivity
+import com.harvitech.kidsdrawing.common.CommonConstants
+import com.harvitech.kidsdrawing.mywork.MyWorkActivity
 import com.kidsplay.kidseducation.ads.AndroidAdService
 import com.kidsplay.kidseducation.platform.AndroidLinkOpener
 import com.kidsplay.kidseducation.platform.AndroidSpeaker
@@ -27,7 +30,26 @@ class MainActivity : ComponentActivity() {
             lifeSkillsSettings = SharedPreferencesSettings(getSharedPreferences("life_skills_progress", MODE_PRIVATE)),
             links = AndroidLinkOpener(applicationContext),
             ads = AndroidAdService(this),
-            openDrawing = { startActivity(Intent(this, BGImageListActivity::class.java)) },
+            openMyDrawings = { startActivity(Intent(this, MyWorkActivity::class.java)) },
+            openDrawing = { easy, index ->
+                if (index == null) {
+                    startActivity(Intent(this, BGImageListActivity::class.java).putExtra(CommonConstants.KeyBGImageType, easy))
+                } else {
+                    // Same reset the module's own list screen does before opening the editor.
+                    CommonConstants.IS_CLEAR = true
+                    CommonConstants.IS_CLEAR_BRUSH = true
+                    CommonConstants.IS_CLEAR_MAGIC = true
+                    CommonConstants.IS_CLEAR_PENCIL = true
+                    CommonConstants.IS_CLEAR_STICKER = true
+                    CommonConstants.IS_CLEAR_TEXT = true
+                    CommonConstants.STICKER_COUNT = 0
+                    startActivity(
+                        Intent(this, EditorActivity::class.java)
+                            .putExtra(CommonConstants.KeyBGImageType, easy)
+                            .putExtra(CommonConstants.KeyItemPos, index),
+                    )
+                }
+            },
         )
         setContent { App(deps) }
     }

@@ -1,5 +1,6 @@
 package com.kidsplay.kidseducation.screens
 
+import kotlinx.coroutines.delay
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -137,7 +138,16 @@ fun TraceNumberScreen(number: Int, nav: Navigator, onBack: () -> Unit) {
         animationSpec = infiniteRepeatable(tween(550), RepeatMode.Reverse),
     )
 
-    LaunchedEffect(complete, number) { if (complete) app.say(number.toString()) }
+    // Finished the number -> say it, celebrate for a moment, then open the next number automatically.
+    LaunchedEffect(complete, number) {
+        if (complete) {
+            app.say(number.toString())
+            if (number < MAX_NUMBER) {
+                delay(2200)
+                nav.replace(Screen.TraceNumber(number + 1))
+            }
+        }
+    }
 
     ScreenFrame("Write $number", onBack) {
         Column(Modifier.fillMaxSize().padding(12.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -208,7 +218,7 @@ fun TraceNumberScreen(number: Int, nav: Navigator, onBack: () -> Unit) {
             }
             Row(Modifier.fillMaxWidth().padding(top = 4.dp), horizontalArrangement = Arrangement.SpaceEvenly, verticalAlignment = Alignment.CenterVertically) {
                 BigButton("◀", { nav.replace(Screen.TraceNumber(number - 1)) }, enabled = number > 1, color = Color.Gray)
-                if (complete) Text("🎉 Great!", style = MaterialTheme.typography.headlineMedium)
+                if (complete) Text(if (number < MAX_NUMBER) "🎉 Great! Next…" else "🎉 Great!", style = MaterialTheme.typography.headlineMedium)
                 else BigButton("Again", { nextIndex = 0 }, color = KidsColors.Sun)
                 BigButton("▶", { nav.replace(Screen.TraceNumber(number + 1)) }, enabled = number < MAX_NUMBER)
             }

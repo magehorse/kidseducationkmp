@@ -15,7 +15,8 @@
         <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:background="@drawable/ic_header_bg">
+                android:id="@+id/rlFullHeader"
+                android:background="@color/kd_matchHeaderTheme">
 
             <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/ivBack"

@@ -59,10 +59,13 @@ class PlatformDeps(
     val links: LinkOpener,
     val ads: AdService = NoAds,
     /**
-     * Opens the full colouring / sticker / brush editor (the old app's kidsdrawing module).
-     * Android supplies it; other platforms leave it null and the simple free-hand pad is used instead.
+     * Opens the old drawing module (brushes, pencils, stickers) — Android only.
+     * (easy, index) = open that colouring picture in the editor; (easy, null) = open the picture list.
+     * When null (other platforms) the built-in tap-to-fill colouring screens are used instead.
      */
-    val openDrawing: (() -> Unit)? = null,
+    val openDrawing: ((easy: Boolean, index: Int?) -> Unit)? = null,
+    /** Opens the list of saved drawings ("My Drawings") — Android only, hidden elsewhere. */
+    val openMyDrawings: (() -> Unit)? = null,
     /** Where the sound toggle lives. Android points this at the old app's `MyPref` file; elsewhere it is [settings]. */
     val soundSettings: Settings = settings,
     /** Where life-skills progress lives. Android points this at the old `life_skills_progress` file. */

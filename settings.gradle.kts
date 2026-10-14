@@ -29,7 +29,6 @@ dependencyResolutionManagement {
 }
 
 include(":kidsdrawing")
-include(":indicatorseekbar")
 include(":shared")
 include(":composeApp")
 include(":server")

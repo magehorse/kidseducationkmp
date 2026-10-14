@@ -8,7 +8,7 @@
 -keepclasseswithmembers class com.kidsplay.kidseducation.** { kotlinx.serialization.KSerializer serializer(...); }
 -dontwarn org.slf4j.**
 
-# YouTube in-app player + views created by reflection (from the old app)
+# YouTube in-app player (from the old app)
 -keep class com.pierfrancescosoffritti.androidyoutubeplayer.** { *; }
 -dontwarn com.pierfrancescosoffritti.androidyoutubeplayer.**
 -keep public class * extends com.bumptech.glide.module.AppGlideModule

@@ -242,7 +242,7 @@
     <LinearLayout
             android:id="@+id/llFooter"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_130sdp"
+            android:layout_height="@dimen/_112sdp"
             android:layout_alignParentBottom="true"
             android:orientation="vertical">
 
@@ -268,7 +268,7 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:visibility="visible"
-                    android:paddingTop="@dimen/_15dp">
+                    android:paddingTop="2dp">
 
                 <LinearLayout
                         android:id="@+id/llBrush"

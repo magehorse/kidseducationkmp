@@ -27,7 +27,8 @@ class AppState(private val deps: PlatformDeps) {
         private set
     var soundEnabled by mutableStateOf(store.soundEnabled)
         private set
-    var language by mutableStateOf(store.language)
+    /** English only: any previously saved Hindi choice is ignored. */
+    var language by mutableStateOf("en")
         private set
     /** Don't ask for the child's name more than once per session. */
     var nameAsked by mutableStateOf(false)
@@ -46,8 +47,7 @@ class AppState(private val deps: PlatformDeps) {
     }
 
     fun updateLanguage(value: String) {
-        language = value
-        store.language = value
+        // English only — nothing to change.
     }
 
     /** Speaks [text] if sound is on. [hindi] picks the Hindi voice. */
@@ -75,7 +75,6 @@ class AppState(private val deps: PlatformDeps) {
             is Screen.LifeComplete -> log(ActivityKind.LifeSkills, "Life skills result", "${screen.correct} of ${screen.total} correct, ${screen.stars} stars")
             is Screen.MathGame -> log(ActivityKind.Game, "Maths", screen.op.title)
             is Screen.MathResult -> log(ActivityKind.Game, "Maths result", "${screen.points} of ${screen.total} points")
-            Screen.Draw -> log(ActivityKind.Draw, "Free draw")
             else -> Unit
         }
     }

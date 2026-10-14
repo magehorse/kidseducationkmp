@@ -60,7 +60,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.process)
             implementation(libs.play.services.ads)
             implementation(libs.youtube.player)
-            implementation(project(":kidsdrawing"))   // the old app's colouring / sticker / brush editor
+            implementation(project(":kidsdrawing"))   // brushes, pencils, stickers: the old drawing editor
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)

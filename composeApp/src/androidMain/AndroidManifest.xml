@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Needed by the drawing module (EditorActivity / MyWork share artwork through this authority). -->
+        <!-- Needed by the drawing module (saving / sharing artwork). -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"

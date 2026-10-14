@@ -1,5 +1,6 @@
 package com.kidsplay.kidseducation.screens
 
+import com.kidsplay.kidseducation.platform.LocalDeps
 import com.kidsplay.kidseducation.nav.Screen
 import com.kidsplay.kidseducation.nav.Navigator
 import androidx.compose.ui.unit.sp
@@ -72,12 +73,21 @@ fun SettingsScreen(nav: Navigator, onBack: () -> Unit) {
                     Switch(checked = app.soundEnabled, onCheckedChange = { app.updateSound(it) })
                 }
             }
-            TileCard(Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Language (numbers)", style = MaterialTheme.typography.titleMedium)
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        FilterChip(selected = !app.isHindi, onClick = { app.updateLanguage("en") }, label = { Text("English") })
-                        FilterChip(selected = app.isHindi, onClick = { app.updateLanguage("hi") }, label = { Text("हिन्दी (Hindi)") })
+            val deps = LocalDeps.current
+            val openMyDrawings = deps.openMyDrawings
+            if (openMyDrawings != null) {
+                // Pictures the child saved in the drawing editor.
+                TileCard(Modifier.fillMaxWidth(), borderColor = KidsColors.Sun, onClick = openMyDrawings) {
+                    Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        Text("🎨", fontSize = 34.sp)
+                        Column(Modifier.weight(1f)) {
+                            Text("My Drawings", style = MaterialTheme.typography.titleMedium, fontSize = 18.sp)
+                            Text("See the pictures you saved", fontSize = 12.sp, color = Color.Gray)
+                        }
+                        Text(
+                            "Open ›", color = Color.White, fontSize = 13.sp, style = MaterialTheme.typography.labelLarge,
+                            modifier = Modifier.clip(RoundedCornerShape(18.dp)).background(KidsColors.HeaderBottom).padding(horizontal = 14.dp, vertical = 8.dp),
+                        )
                     }
                 }
             }

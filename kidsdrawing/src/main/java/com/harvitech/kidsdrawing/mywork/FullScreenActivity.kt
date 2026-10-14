@@ -35,6 +35,7 @@ class FullScreenActivity : AppCompatActivity() {
         context = this
         initDefine()
         AdManager.loadBanner(this, binding.adViewContainer)
+        AdManager.padHeaderBelowStatusBar(findViewById(R.id.rlFullHeader))
 
     }
 

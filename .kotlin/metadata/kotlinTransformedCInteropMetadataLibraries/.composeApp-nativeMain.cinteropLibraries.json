@@ -1,22 +1,22 @@
 [
   {
     "moduleId": "org.jetbrains.kotlinx:atomicfu:0.23.2",
-    "file": "C:\\Users\\PC\\Downloads\\kidsgame-kmp\\kidsgame-kmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-cinterop\\org.jetbrains.kotlinx_atomicfu-cinterop-interop-yBS35w.klib",
+    "file": "C:\\Users\\PC\\Desktop\\Kmp\\kidseducationkmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-cinterop\\org.jetbrains.kotlinx_atomicfu-cinterop-interop-yBS35w.klib",
     "sourceSetName": "nativeMain"
   },
   {
     "moduleId": "org.jetbrains.compose.ui:ui-uikit:1.8.2",
-    "file": "C:\\Users\\PC\\Downloads\\kidsgame-kmp\\kidsgame-kmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\org.jetbrains.compose.ui-ui-uikit-1.8.2-uikitMain-cinterop\\org.jetbrains.compose.ui_ui-uikit-cinterop-utils-RVQtSg.klib",
+    "file": "C:\\Users\\PC\\Desktop\\Kmp\\kidseducationkmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\org.jetbrains.compose.ui-ui-uikit-1.8.2-uikitMain-cinterop\\org.jetbrains.compose.ui_ui-uikit-cinterop-utils-RVQtSg.klib",
     "sourceSetName": "uikitMain"
   },
   {
     "moduleId": "io.ktor:ktor-utils:3.1.3",
-    "file": "C:\\Users\\PC\\Downloads\\kidsgame-kmp\\kidsgame-kmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\io.ktor-ktor-utils-3.1.3-iosMain-cinterop\\io.ktor_ktor-utils-cinterop-threadUtils-n61uLw.klib",
+    "file": "C:\\Users\\PC\\Desktop\\Kmp\\kidseducationkmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\io.ktor-ktor-utils-3.1.3-iosMain-cinterop\\io.ktor_ktor-utils-cinterop-threadUtils-n61uLw.klib",
     "sourceSetName": "iosMain"
   },
   {
     "moduleId": "io.ktor:ktor-io:3.1.3",
-    "file": "C:\\Users\\PC\\Downloads\\kidsgame-kmp\\kidsgame-kmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\io.ktor-ktor-io-3.1.3-iosMain-cinterop\\io.ktor_ktor-io-cinterop-mutex-kJMWEg.klib",
+    "file": "C:\\Users\\PC\\Desktop\\Kmp\\kidseducationkmp\\.kotlin\\metadata\\kotlinTransformedCInteropMetadataLibraries\\io.ktor-ktor-io-3.1.3-iosMain-cinterop\\io.ktor_ktor-io-cinterop-mutex-kJMWEg.klib",
     "sourceSetName": "iosMain"
   }
 ]

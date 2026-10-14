@@ -32,7 +32,8 @@ import com.kidsplay.kidseducation.platform.PlatformBackHandler
 import com.kidsplay.kidseducation.platform.PlatformDeps
 import com.kidsplay.kidseducation.screens.CategoriesScreen
 import com.kidsplay.kidseducation.screens.ChildActivityScreen
-import com.kidsplay.kidseducation.screens.DrawScreen
+import com.kidsplay.kidseducation.screens.ColoringListScreen
+import com.kidsplay.kidseducation.screens.ColoringScreen
 import com.kidsplay.kidseducation.screens.FlashcardsScreen
 import com.kidsplay.kidseducation.screens.LearnListScreen
 import com.kidsplay.kidseducation.screens.LifeCompleteScreen
@@ -115,7 +116,8 @@ private fun AppContent(nav: Navigator, app: AppState) {
         is Screen.VideoList -> VideoListScreen(screen.categoryId, nav, back)
         is Screen.VideoPlay -> VideoPlayScreen(screen.categoryId, screen.videoId, back)
         Screen.Reels -> ReelsScreen(back)
-        Screen.Draw -> DrawScreen(back)
+        is Screen.ColoringList -> ColoringListScreen(screen.easy, nav, back)
+        is Screen.Coloring -> ColoringScreen(screen.easy, screen.index, back)
         Screen.Settings -> SettingsScreen(nav, back)
         Screen.ChildActivity -> ChildActivityScreen(back)
         Screen.MathMenu -> MathMenuScreen(nav, back)

@@ -30,7 +30,7 @@ object AdManager {
     fun loadBanner(activity: Activity, container: FrameLayout) {
         if (activity.isFinishing || activity.isDestroyed) return
 
-        applyBottomInsetPadding(container)
+        padScreenAboveNavigationBar(activity)
         container.removeAllViews()
         container.visibility = android.view.View.GONE // hide until it actually loads
 
@@ -77,6 +77,37 @@ object AdManager {
      * no-op (the reported inset is 0, since the system already reserves
      * that space itself).
      */
+    /**
+     * Keeps the whole screen (tool bar, footer, banner) above the system navigation bar. The old approach padded only
+     * the banner container, but that container is hidden until an ad loads, so the editor's bottom bar was cut off by
+     * the back / home buttons. Padding the content root works whether or not an ad is showing.
+     */
+    fun padScreenAboveNavigationBar(activity: Activity) {
+        val content = activity.findViewById<android.view.ViewGroup>(android.R.id.content)
+        val root = content?.getChildAt(0) ?: return
+        val l = root.paddingLeft
+        val t = root.paddingTop
+        val r = root.paddingRight
+        val b = root.paddingBottom
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
+            val nav = insets.getInsets(androidx.core.view.WindowInsetsCompat.Type.navigationBars())
+            view.setPadding(l, t, r, b + nav.bottom)
+            insets
+        }
+        androidx.core.view.ViewCompat.requestApplyInsets(root)
+    }
+
+    /** Keeps a header's content below the status bar (the header colour itself still reaches the top edge). */
+    fun padHeaderBelowStatusBar(header: View) {
+        val t = header.paddingTop
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(header) { view, insets ->
+            val bar = insets.getInsets(androidx.core.view.WindowInsetsCompat.Type.statusBars())
+            view.setPadding(view.paddingLeft, t + bar.top, view.paddingRight, view.paddingBottom)
+            insets
+        }
+        androidx.core.view.ViewCompat.requestApplyInsets(header)
+    }
+
     fun applyBottomInsetPadding(bottomView: View) {
         val originalLeft = bottomView.paddingLeft
         val originalRight = bottomView.paddingRight

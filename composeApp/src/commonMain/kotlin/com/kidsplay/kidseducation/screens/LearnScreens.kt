@@ -1,5 +1,16 @@
 package com.kidsplay.kidseducation.screens
 
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.border
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.draw.shadow
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -81,8 +92,9 @@ fun LearnListScreen(categoryIndex: Int, nav: Navigator, onBack: () -> Unit) {
 }
 
 /**
- * Swipeable full-screen flash cards (the old FullScreenActivity): big title on top, then the picture fills ALL the
- * remaining space (A for Apple -> a huge apple), with previous / next arrows on the sides.
+ * Swipeable full-screen flash cards (the old FullScreenActivity): colourful title, a big picture card that fills the
+ * space, and a bottom control row — round arrow buttons for previous / next with a sound button and the page counter
+ * between them. The ad banner stays at the very bottom (ScreenFrame).
  */
 @Composable
 fun FlashcardsScreen(categoryIndex: Int, start: Int, onBack: () -> Unit) {
@@ -110,31 +122,78 @@ fun FlashcardsScreen(categoryIndex: Int, start: Int, onBack: () -> Unit) {
             if (app.isHindi && current.speakHi != null) {
                 Text(current.speakHi!!, color = KidsColors.Ink, fontSize = 20.sp, style = MaterialTheme.typography.titleMedium)
             }
-            Box(Modifier.weight(1f).fillMaxWidth()) {
-                HorizontalPager(state = pager, modifier = Modifier.fillMaxSize()) { page ->
+            // Picture card: full width, square, centred in the free space.
+            Box(Modifier.weight(1f).fillMaxWidth().padding(horizontal = 14.dp, vertical = 8.dp), contentAlignment = Alignment.Center) {
+                HorizontalPager(state = pager, modifier = Modifier.fillMaxWidth().aspectRatio(1f)) { page ->
+                    val cardShape = RoundedCornerShape(30.dp)
+                    val accent = KidsColors.Rainbow[page % KidsColors.Rainbow.size]
                     Box(
-                        Modifier.fillMaxSize().padding(4.dp)
+                        Modifier.fillMaxSize().padding(6.dp).shadow(8.dp, cardShape).clip(cardShape).background(Color.White)
+                            .border(4.dp, accent, cardShape)
                             .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) {
                                 app.sayItem(items[page])
                             },
                         contentAlignment = Alignment.Center,
-                    ) { GameImage(items[page].image, Modifier.fillMaxSize(), ContentScale.Fit) }
+                    ) {
+                        // A little smaller than the card, so big pictures (A, 1, 2 …) are not stretched edge to edge.
+                        GameImage(items[page].image, Modifier.fillMaxSize(0.52f), ContentScale.Fit)
+                    }
                 }
-                CircleButton("◀", enabled = pager.currentPage > 0, size = 48.dp, modifier = Modifier.align(Alignment.CenterStart).padding(start = 6.dp)) {
+            }
+            // [ ‹ ]   [ 🔊  3 / 26 ]   [ › ]
+            Row(
+                Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp, top = 2.dp, bottom = 10.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                ArrowButton(forward = false, enabled = pager.currentPage > 0) {
                     scope.launch { pager.animateScrollToPage(pager.currentPage - 1) }
                 }
-                CircleButton("▶", enabled = pager.currentPage < items.lastIndex, size = 48.dp, modifier = Modifier.align(Alignment.CenterEnd).padding(end = 6.dp)) {
+                Row(
+                    Modifier.shadow(4.dp, RoundedCornerShape(30.dp)).clip(RoundedCornerShape(30.dp)).background(Color.White)
+                        .border(2.dp, KidsColors.Sun, RoundedCornerShape(30.dp)).padding(start = 6.dp, end = 16.dp, top = 5.dp, bottom = 5.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                ) {
+                    Box(
+                        Modifier.size(42.dp).clip(CircleShape).background(KidsColors.HeaderBottom)
+                            .clickable { app.sayItem(items[pager.currentPage]) },
+                        contentAlignment = Alignment.Center,
+                    ) { Text("🔊", fontSize = 20.sp) }
+                    Text("${pager.currentPage + 1} / ${items.size}", style = MaterialTheme.typography.titleMedium, color = KidsColors.Ink)
+                }
+                ArrowButton(forward = true, enabled = pager.currentPage < items.lastIndex) {
                     scope.launch { pager.animateScrollToPage(pager.currentPage + 1) }
                 }
             }
-            Row(
-                Modifier.fillMaxWidth().padding(vertical = 6.dp),
-                horizontalArrangement = Arrangement.Center,
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text("${pager.currentPage + 1} / ${items.size}", style = MaterialTheme.typography.titleMedium)
-                CircleButton("🔊", size = 44.dp, modifier = Modifier.padding(start = 16.dp)) { app.sayItem(items[pager.currentPage]) }
+        }
+    }
+}
+
+/** Big round previous / next button: gradient disc, white ring, and a chevron drawn on a Canvas (perfectly centred). */
+@Composable
+private fun ArrowButton(forward: Boolean, enabled: Boolean, onClick: () -> Unit) {
+    val top = if (enabled) (if (forward) Color(0xFF66D96B) else Color(0xFFFFB74D)) else Color(0xFFD5D9E0)
+    val bottom = if (enabled) (if (forward) Color(0xFF2EAD3A) else Color(0xFFFB8C00)) else Color(0xFFB8BDC7)
+    Box(
+        Modifier.size(64.dp)
+            .then(if (enabled) Modifier.shadow(8.dp, CircleShape) else Modifier)
+            .clip(CircleShape)
+            .background(Brush.verticalGradient(listOf(top, bottom)))
+            .border(3.dp, Color.White, CircleShape)
+            .then(if (enabled) Modifier.clickable(onClick = onClick) else Modifier),
+        contentAlignment = Alignment.Center,
+    ) {
+        Canvas(Modifier.size(30.dp)) {
+            val w = size.width
+            val h = size.height
+            // chevron, nudged so its optical centre sits on the disc centre
+            val x0 = if (forward) w * 0.34f else w * 0.66f
+            val x1 = if (forward) w * 0.68f else w * 0.32f
+            val path = Path().apply {
+                moveTo(x0, h * 0.18f); lineTo(x1, h * 0.5f); lineTo(x0, h * 0.82f)
             }
+            drawPath(path, Color.White, style = Stroke(width = w * 0.20f, cap = StrokeCap.Round, join = StrokeJoin.Round))
         }
     }
 }

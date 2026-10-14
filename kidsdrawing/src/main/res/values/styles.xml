@@ -10,7 +10,7 @@
         <item name="windowNoTitle">true</item>
 
         <!-- Status bar background (use DARK color) -->
-        <item name="android:statusBarColor">@color/kd_colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/kd_matchHeaderTheme</item>
 
         <!-- IMPORTANT: false = WHITE icons -->
         <item name="android:windowLightStatusBar">false</item>

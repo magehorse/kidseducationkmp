@@ -46,6 +46,7 @@ class MyWorkActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         initDefine()
         getImagesFromSdCard()
         AdManager.loadBanner(this, findViewById<FrameLayout>(R.id.adViewContainer))
+        AdManager.padHeaderBelowStatusBar(findViewById(R.id.rlMyWorkHeader))
     }
 
     private fun initDefine() {

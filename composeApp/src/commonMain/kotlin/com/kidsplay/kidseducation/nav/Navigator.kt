@@ -11,7 +11,6 @@ enum class MainTab(val label: String, val emoji: String) {
     Look("Look", "👀"),
     Listen("Listen", "🎧"),
     Videos("Videos", "🎬"),
-    Math("Maths", "➗"),
 }
 
 enum class GridMode { Learn, Look, Listen, Math }
@@ -33,7 +32,8 @@ sealed interface Screen {
     data class VideoList(val categoryId: Int) : Screen
     data class VideoPlay(val categoryId: Int, val videoId: String) : Screen
     data object Reels : Screen
-    data object Draw : Screen
+    data class ColoringList(val easy: Boolean) : Screen
+    data class Coloring(val easy: Boolean, val index: Int) : Screen
     data object Settings : Screen
     data object ChildActivity : Screen
     data object MathMenu : Screen
